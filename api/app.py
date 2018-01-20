@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # DB
 app.config['MONGO_DBNAME'] = 'advising'
-app.config['MONGO_URI'] = 'mongodb://admin:admin@ds121464.mlab.com:21464/likeagirl'
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/Reserviour'
 mongo = PyMongo(app)
 
 # Decorator to check if logged in
